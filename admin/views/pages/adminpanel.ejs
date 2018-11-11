@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+
+        <% include ../partials/head %>
+
+        <body>
+    
+            <% include ../partials/nav %>
+    
+            <section name="jumbotron"  >
+                <div class="jumbotron text-center">
+                        <div class="container body-content">
+                                <br />
+                                <h2>
+                                    <%= title %>
+                                </h2>
+                                <br>
+                                
+                                <div ng-app="myApp">
+                                    <div ng-controller="mycontroller">
+                                        <table border="1" class="booktable">
+                                            <tr >
+                                                <th >Venue</th>
+                                                <th>Society</th>
+                                                <th>Book Request Date</th>
+                                                <th>Book Request Time</th>
+                                                <th>Event Start</th>
+                                                <th>Event End</th>
+                                                <th>Purpose</th>
+                                                <th>Event Date</th>
+                                                <th>Status</th>
+                                                <th>Action</th>
+                        
+                                            </tr>
+                                            <tr ng-repeat="bl in booking"  >
+                                                <td  >{{bl.venue}}</td>
+                                                <td  >{{bl.society}}</td>
+                                                <td > {{bl.applicationTimeStamp | date:'yyyy-MM-dd'}} </td>
+                                                <td> {{bl.applicationTimeStamp | date:'hh:mm:ss'}}</td>
+                                                <td  >{{bl.eventStartTime}}</td>
+                                                <td  >{{bl.eventEndTime}}</td>
+                                                <td  >{{bl.purpose}}</td>
+                                                <td  >{{bl.eventDate | date:'yyyy-MM-dd'}}</td>
+                                                <td  >{{bl.status}}</td>
+                                                <td>
+                                                    
+                                                    &nbsp;&nbsp;
+                                                    <a href="/confirm/{{bl._id}}">Confirm</a>
+                                                    &nbsp;&nbsp;|&nbsp;&nbsp;
+                                                    <a href="/reject/{{bl._id}}">Reject</a>
+                                                    &nbsp;&nbsp;&nbsp;&nbsp;
+                        
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                        
+                                <br />
+                        
+                        
+                                <br />
+                                <hr />
+                                <% include ../partials/footer %>
+                            </div>
+                </div>
+            </section>
+    
+           
+    
+            <script>
+                    var bookings = <%- JSON.stringify(bookinglist)%>;
+                </script>
+    
+            <% include ../partials/scripts %>
+    
+        </body>
+</body>
+
+</html>

@@ -1,0 +1,142 @@
+E:\C#\TFT\UserInfo\obj\Release\Interop.zkemkeeper.dll
+E:\C#\TFT\UserInfo\obj\Release\UserInfo.csproj.ResolveComReference.cache
+E:\C#\TFT\UserInfo\bin\Release\UserInfo.exe
+E:\C#\TFT\UserInfo\bin\Release\UserInfo.pdb
+E:\C#\TFT\UserInfo\bin\Release\Interop.zkemkeeper.dll
+E:\C#\TFT\UserInfo\obj\Release\ResolveAssemblyReference.cache
+E:\C#\TFT\UserInfo\obj\Release\UserInfo.UserInfoMain.resources
+E:\C#\TFT\UserInfo\obj\Release\UserInfo.Properties.Resources.resources
+E:\C#\TFT\UserInfo\obj\Release\UserInfo.csproj.GenerateResource.Cache
+E:\C#\TFT\UserInfo\obj\Release\UserInfo.exe
+E:\C#\TFT\UserInfo\obj\Release\UserInfo.pdb
+D:\C#\TFT\UserInfo\bin\Release\UserInfo.exe
+D:\C#\TFT\UserInfo\bin\Release\UserInfo.pdb
+D:\C#\TFT\UserInfo\bin\Release\Interop.zkemkeeper.dll
+D:\C#\TFT\UserInfo\obj\Release\ResolveAssemblyReference.cache
+D:\C#\TFT\UserInfo\obj\Release\Interop.zkemkeeper.dll
+D:\C#\TFT\UserInfo\obj\Release\UserInfo.csproj.ResolveComReference.cache
+D:\C#\TFT\UserInfo\obj\Release\UserInfo.UserInfoMain.resources
+D:\C#\TFT\UserInfo\obj\Release\UserInfo.Properties.Resources.resources
+D:\C#\TFT\UserInfo\obj\Release\UserInfo.csproj.GenerateResource.Cache
+D:\C#\TFT\UserInfo\obj\Release\UserInfo.exe
+D:\C#\TFT\UserInfo\obj\Release\UserInfo.pdb
+C:\Users\sunita.ESSLHO\Desktop\Communication Protocol SDK(32Bit Ver6.2.4.1)\Demo\C#\TFT\UserInfo\obj\Release\Interop.zkemkeeper.dll
+C:\Users\sunita.ESSLHO\Desktop\Communication Protocol SDK(32Bit Ver6.2.4.1)\Demo\C#\TFT\UserInfo\obj\Release\UserInfo.csproj.ResolveComReference.cache
+C:\Users\sunita.ESSLHO\Desktop\Communication Protocol SDK(32Bit Ver6.2.4.1)\Demo\C#\TFT\UserInfo\obj\Release\UserInfo.exe
+C:\Users\sunita.ESSLHO\Desktop\Communication Protocol SDK(32Bit Ver6.2.4.1)\Demo\C#\TFT\UserInfo\obj\Release\UserInfo.pdb
+C:\Users\sunita.ESSLHO\Desktop\Communication Protocol SDK(32Bit Ver6.2.4.1)\Demo\C#\TFT\UserInfo\bin\Release\UserInfo.exe
+C:\Users\sunita.ESSLHO\Desktop\Communication Protocol SDK(32Bit Ver6.2.4.1)\Demo\C#\TFT\UserInfo\bin\Release\UserInfo.pdb
+C:\Users\sunita.ESSLHO\Desktop\Communication Protocol SDK(32Bit Ver6.2.4.1)\Demo\C#\TFT\UserInfo\bin\Release\Interop.zkemkeeper.dll
+C:\Users\sunita.ESSLHO\Desktop\Communication Protocol SDK(32Bit Ver6.2.4.1)\Demo\C#\TFT\UserInfo\obj\Release\ResolveAssemblyReference.cache
+C:\Users\sunita.ESSLHO\Desktop\Communication Protocol SDK(32Bit Ver6.2.4.1)\Demo\C#\TFT\UserInfo\obj\Release\UserInfo.UserInfoMain.resources
+C:\Users\sunita.ESSLHO\Desktop\Communication Protocol SDK(32Bit Ver6.2.4.1)\Demo\C#\TFT\UserInfo\obj\Release\UserInfo.Properties.Resources.resources
+C:\Users\sunita.ESSLHO\Desktop\Communication Protocol SDK(32Bit Ver6.2.4.1)\Demo\C#\TFT\UserInfo\obj\Release\GenerateResource-ResGen.read.1.tlog
+C:\Users\sunita.ESSLHO\Desktop\Communication Protocol SDK(32Bit Ver6.2.4.1)\Demo\C#\TFT\UserInfo\obj\Release\GenerateResource-ResGen.write.1.tlog
+D:\Sunita\eSSLDEMO\june\27-6\Communication Protocol SDK(32Bit Ver6.2.4.1)\Demo\C#\TFT\UserInfo\obj\Release\Interop.zkemkeeper.dll
+D:\Sunita\eSSLDEMO\june\27-6\Communication Protocol SDK(32Bit Ver6.2.4.1)\Demo\C#\TFT\UserInfo\obj\Release\UserInfo.csproj.ResolveComReference.cache
+D:\Sunita\eSSLDEMO\june\27-6\Communication Protocol SDK(32Bit Ver6.2.4.1)\Demo\C#\TFT\UserInfo\obj\Release\UserInfo.exe
+D:\Sunita\eSSLDEMO\june\27-6\Communication Protocol SDK(32Bit Ver6.2.4.1)\Demo\C#\TFT\UserInfo\obj\Release\UserInfo.pdb
+D:\Sunita\eSSLDEMO\june\27-6\Communication Protocol SDK(32Bit Ver6.2.4.1)\Demo\C#\TFT\UserInfo\bin\Release\UserInfo.exe
+D:\Sunita\eSSLDEMO\june\27-6\Communication Protocol SDK(32Bit Ver6.2.4.1)\Demo\C#\TFT\UserInfo\bin\Release\UserInfo.pdb
+D:\Sunita\eSSLDEMO\june\27-6\Communication Protocol SDK(32Bit Ver6.2.4.1)\Demo\C#\TFT\UserInfo\bin\Release\Interop.zkemkeeper.dll
+D:\Sunita\eSSLDEMO\june\27-6\Communication Protocol SDK(32Bit Ver6.2.4.1)\Demo\C#\TFT\UserInfo\obj\Release\ResolveAssemblyReference.cache
+D:\Sunita\eSSLDEMO\june\27-6\Communication Protocol SDK(32Bit Ver6.2.4.1)\Demo\C#\TFT\UserInfo\obj\Release\UserInfo.UserInfoMain.resources
+D:\Sunita\eSSLDEMO\june\27-6\Communication Protocol SDK(32Bit Ver6.2.4.1)\Demo\C#\TFT\UserInfo\obj\Release\UserInfo.Properties.Resources.resources
+D:\Sunita\eSSLDEMO\june\27-6\Communication Protocol SDK(32Bit Ver6.2.4.1)\Demo\C#\TFT\UserInfo\obj\Release\GenerateResource-ResGen.read.1.tlog
+D:\Sunita\eSSLDEMO\june\27-6\Communication Protocol SDK(32Bit Ver6.2.4.1)\Demo\C#\TFT\UserInfo\obj\Release\GenerateResource-ResGen.write.1.tlog
+D:\Sunita\eSSLDEMO\june\28-6\Communication Protocol SDK(32Bit Ver6.2.4.1)\Demo\C#\TFT\UserInfo\obj\Release\Interop.zkemkeeper.dll
+D:\Sunita\eSSLDEMO\june\28-6\Communication Protocol SDK(32Bit Ver6.2.4.1)\Demo\C#\TFT\UserInfo\obj\Release\UserInfo.csproj.ResolveComReference.cache
+D:\Sunita\eSSLDEMO\june\28-6\Communication Protocol SDK(32Bit Ver6.2.4.1)\Demo\C#\TFT\UserInfo\obj\Release\UserInfo.exe
+D:\Sunita\eSSLDEMO\june\28-6\Communication Protocol SDK(32Bit Ver6.2.4.1)\Demo\C#\TFT\UserInfo\obj\Release\UserInfo.pdb
+D:\Sunita\eSSLDEMO\june\28-6\Communication Protocol SDK(32Bit Ver6.2.4.1)\Demo\C#\TFT\UserInfo\bin\Release\UserInfo.exe
+D:\Sunita\eSSLDEMO\june\28-6\Communication Protocol SDK(32Bit Ver6.2.4.1)\Demo\C#\TFT\UserInfo\bin\Release\UserInfo.pdb
+D:\Sunita\eSSLDEMO\june\28-6\Communication Protocol SDK(32Bit Ver6.2.4.1)\Demo\C#\TFT\UserInfo\bin\Release\Interop.zkemkeeper.dll
+D:\Sunita\eSSLDEMO\june\28-6\Communication Protocol SDK(32Bit Ver6.2.4.1)\Demo\C#\TFT\UserInfo\obj\Release\ResolveAssemblyReference.cache
+D:\Sunita\eSSLDEMO\june\28-6\Communication Protocol SDK(32Bit Ver6.2.4.1)\Demo\C#\TFT\UserInfo\obj\Release\UserInfo.UserInfoMain.resources
+D:\Sunita\eSSLDEMO\june\28-6\Communication Protocol SDK(32Bit Ver6.2.4.1)\Demo\C#\TFT\UserInfo\obj\Release\UserInfo.Properties.Resources.resources
+D:\Sunita\eSSLDEMO\june\28-6\Communication Protocol SDK(32Bit Ver6.2.4.1)\Demo\C#\TFT\UserInfo\obj\Release\GenerateResource-ResGen.read.1.tlog
+D:\Sunita\eSSLDEMO\june\28-6\Communication Protocol SDK(32Bit Ver6.2.4.1)\Demo\C#\TFT\UserInfo\obj\Release\GenerateResource-ResGen.write.1.tlog
+D:\Sunita\eSSLDEMO\june\29-6\Communication Protocol SDK(32Bit Ver6.2.4.1)\Demo\C#\TFT\UserInfo\obj\Release\Interop.zkemkeeper.dll
+D:\Sunita\eSSLDEMO\june\29-6\Communication Protocol SDK(32Bit Ver6.2.4.1)\Demo\C#\TFT\UserInfo\obj\Release\UserInfo.csproj.ResolveComReference.cache
+D:\Sunita\eSSLDEMO\june\29-6\Communication Protocol SDK(32Bit Ver6.2.4.1)\Demo\C#\TFT\UserInfo\obj\Release\UserInfo.exe
+D:\Sunita\eSSLDEMO\june\29-6\Communication Protocol SDK(32Bit Ver6.2.4.1)\Demo\C#\TFT\UserInfo\obj\Release\UserInfo.pdb
+D:\Sunita\eSSLDEMO\june\29-6\Communication Protocol SDK(32Bit Ver6.2.4.1)\Demo\C#\TFT\UserInfo\bin\Release\UserInfo.exe
+D:\Sunita\eSSLDEMO\june\29-6\Communication Protocol SDK(32Bit Ver6.2.4.1)\Demo\C#\TFT\UserInfo\bin\Release\UserInfo.pdb
+D:\Sunita\eSSLDEMO\june\29-6\Communication Protocol SDK(32Bit Ver6.2.4.1)\Demo\C#\TFT\UserInfo\bin\Release\Interop.zkemkeeper.dll
+D:\Sunita\eSSLDEMO\june\29-6\Communication Protocol SDK(32Bit Ver6.2.4.1)\Demo\C#\TFT\UserInfo\obj\Release\ResolveAssemblyReference.cache
+D:\Sunita\eSSLDEMO\june\29-6\Communication Protocol SDK(32Bit Ver6.2.4.1)\Demo\C#\TFT\UserInfo\obj\Release\UserInfo.DeviceComunication.resources
+D:\Sunita\eSSLDEMO\june\29-6\Communication Protocol SDK(32Bit Ver6.2.4.1)\Demo\C#\TFT\UserInfo\obj\Release\UserInfo.UserInfoMain.resources
+D:\Sunita\eSSLDEMO\june\29-6\Communication Protocol SDK(32Bit Ver6.2.4.1)\Demo\C#\TFT\UserInfo\obj\Release\UserInfo.Properties.Resources.resources
+D:\Sunita\eSSLDEMO\june\29-6\Communication Protocol SDK(32Bit Ver6.2.4.1)\Demo\C#\TFT\UserInfo\obj\Release\UserInfo.UserInfoMainIFACE.resources
+D:\Sunita\eSSLDEMO\june\29-6\Communication Protocol SDK(32Bit Ver6.2.4.1)\Demo\C#\TFT\UserInfo\obj\Release\GenerateResource-ResGen.read.1.tlog
+D:\Sunita\eSSLDEMO\june\29-6\Communication Protocol SDK(32Bit Ver6.2.4.1)\Demo\C#\TFT\UserInfo\obj\Release\GenerateResource-ResGen.write.1.tlog
+D:\Sunita\eSSLDEMO\june\29-6\Communication Protocol SDK(32Bit Ver6.2.4.1)\Demo\C#\TFT\UserInfo\obj\Release\UserInfo.UserInfoMainBW.resources
+D:\Sunita\eSSLDEMO\june\29-6\Communication Protocol SDK(32Bit Ver6.2.4.1)\Demo\C#\TFT\UserInfo\obj\Release\UserInfo.UserInfoMainTFT.resources
+D:\Sunita\eSSLDEMO\2013\7.July\1-7\Communication Protocol SDK(32Bit Ver6.2.4.1)\Demo\C#\TFT\UserInfo\obj\Release\Interop.zkemkeeper.dll
+D:\Sunita\eSSLDEMO\2013\7.July\1-7\Communication Protocol SDK(32Bit Ver6.2.4.1)\Demo\C#\TFT\UserInfo\obj\Release\UserInfo.csproj.ResolveComReference.cache
+D:\Sunita\eSSLDEMO\2013\7.July\1-7\Communication Protocol SDK(32Bit Ver6.2.4.1)\Demo\C#\TFT\UserInfo\obj\Release\UserInfo.exe
+D:\Sunita\eSSLDEMO\2013\7.July\1-7\Communication Protocol SDK(32Bit Ver6.2.4.1)\Demo\C#\TFT\UserInfo\obj\Release\UserInfo.pdb
+D:\Sunita\eSSLDEMO\2013\7.July\1-7\DeviceCommu\UserInfo\obj\Release\Interop.zkemkeeper.dll
+D:\Sunita\eSSLDEMO\2013\7.July\1-7\DeviceCommu\UserInfo\obj\Release\UserInfo.csproj.ResolveComReference.cache
+D:\Sunita\eSSLDEMO\2013\7.July\1-7\DeviceCommu\UserInfo\obj\Release\UserInfo.exe
+D:\Sunita\eSSLDEMO\2013\7.July\1-7\DeviceCommu\UserInfo\obj\Release\UserInfo.pdb
+D:\Sunita\eSSLDEMO\2013\7.July\2-7\DeviceCommu\UserInfo\obj\Release\Interop.zkemkeeper.dll
+D:\Sunita\eSSLDEMO\2013\7.July\2-7\DeviceCommu\UserInfo\obj\Release\UserInfo.csproj.ResolveComReference.cache
+D:\Sunita\eSSLDEMO\2013\7.July\2-7\DeviceCommu\UserInfo\obj\Release\UserInfo.exe
+D:\Sunita\eSSLDEMO\2013\7.July\2-7\DeviceCommu\UserInfo\obj\Release\UserInfo.pdb
+D:\Sunita\eSSLDEMO\2013\7.July\2-7\DeviceCommu\UserInfo\bin\Release\UserInfo.exe
+D:\Sunita\eSSLDEMO\2013\7.July\2-7\DeviceCommu\UserInfo\bin\Release\UserInfo.pdb
+D:\Sunita\eSSLDEMO\2013\7.July\2-7\DeviceCommu\UserInfo\bin\Release\Interop.zkemkeeper.dll
+D:\Sunita\eSSLDEMO\2013\7.July\2-7\DeviceCommu\UserInfo\obj\Release\ResolveAssemblyReference.cache
+D:\Sunita\eSSLDEMO\2013\7.July\2-7\DeviceCommu\UserInfo\obj\Release\UserInfo.DeviceComunication.resources
+D:\Sunita\eSSLDEMO\2013\7.July\2-7\DeviceCommu\UserInfo\obj\Release\UserInfo.Properties.Resources.resources
+D:\Sunita\eSSLDEMO\2013\7.July\2-7\DeviceCommu\UserInfo\obj\Release\UserInfo.UserInfoMainBW.resources
+D:\Sunita\eSSLDEMO\2013\7.July\2-7\DeviceCommu\UserInfo\obj\Release\UserInfo.UserInfoMainIFACE.resources
+D:\Sunita\eSSLDEMO\2013\7.July\2-7\DeviceCommu\UserInfo\obj\Release\UserInfo.UserInfoMainTFT.resources
+D:\Sunita\eSSLDEMO\2013\7.July\2-7\DeviceCommu\UserInfo\obj\Release\GenerateResource-ResGen.read.1.tlog
+D:\Sunita\eSSLDEMO\2013\7.July\2-7\DeviceCommu\UserInfo\obj\Release\GenerateResource-ResGen.write.1.tlog
+D:\Sunita\eSSLDEMO\2013\7.July\8-7\DeviceCommu\UserInfo\obj\Release\Interop.zkemkeeper.dll
+D:\Sunita\eSSLDEMO\2013\7.July\8-7\DeviceCommu\UserInfo\obj\Release\UserInfo.csproj.ResolveComReference.cache
+D:\Sunita\eSSLDEMO\2013\7.July\8-7\DeviceCommu\UserInfo\obj\Release\UserInfo.exe
+D:\Sunita\eSSLDEMO\2013\7.July\8-7\DeviceCommu\UserInfo\obj\Release\UserInfo.pdb
+D:\Sunita\eSSLDEMO\2013\7.July\8-7\DeviceCommu\UserInfo\bin\Release\UserInfo.exe
+D:\Sunita\eSSLDEMO\2013\7.July\8-7\DeviceCommu\UserInfo\bin\Release\UserInfo.pdb
+D:\Sunita\eSSLDEMO\2013\7.July\8-7\DeviceCommu\UserInfo\bin\Release\Interop.zkemkeeper.dll
+D:\Sunita\eSSLDEMO\2013\7.July\8-7\DeviceCommu\UserInfo\obj\Release\ResolveAssemblyReference.cache
+D:\Sunita\eSSLDEMO\2013\7.July\8-7\DeviceCommu\UserInfo\obj\Release\UserInfo.DeviceComunication.resources
+D:\Sunita\eSSLDEMO\2013\7.July\8-7\DeviceCommu\UserInfo\obj\Release\UserInfo.Properties.Resources.resources
+D:\Sunita\eSSLDEMO\2013\7.July\8-7\DeviceCommu\UserInfo\obj\Release\UserInfo.UserInfoMainBW.resources
+D:\Sunita\eSSLDEMO\2013\7.July\8-7\DeviceCommu\UserInfo\obj\Release\UserInfo.UserInfoMainIFACE.resources
+D:\Sunita\eSSLDEMO\2013\7.July\8-7\DeviceCommu\UserInfo\obj\Release\UserInfo.UserInfoMainTFT.resources
+D:\Sunita\eSSLDEMO\2013\7.July\8-7\DeviceCommu\UserInfo\obj\Release\GenerateResource-ResGen.read.1.tlog
+D:\Sunita\eSSLDEMO\2013\7.July\8-7\DeviceCommu\UserInfo\obj\Release\GenerateResource-ResGen.write.1.tlog
+D:\Sunita\eSSLDEMO\2013\7.July\9-7\WithLog\DeviceCommu\UserInfo\obj\Release\Interop.zkemkeeper.dll
+D:\Sunita\eSSLDEMO\2013\7.July\9-7\WithLog\DeviceCommu\UserInfo\obj\Release\UserInfo.csproj.ResolveComReference.cache
+D:\Sunita\eSSLDEMO\2013\7.July\9-7\WithLog\DeviceCommu\UserInfo\obj\Release\UserInfo.exe
+D:\Sunita\eSSLDEMO\2013\7.July\9-7\WithLog\DeviceCommu\UserInfo\obj\Release\UserInfo.pdb
+D:\Sunita\eSSLDEMO\2013\7.July\9-7\WithLog\DeviceCommu\UserInfo\bin\Release\UserInfo.exe
+D:\Sunita\eSSLDEMO\2013\7.July\9-7\WithLog\DeviceCommu\UserInfo\bin\Release\UserInfo.pdb
+D:\Sunita\eSSLDEMO\2013\7.July\9-7\WithLog\DeviceCommu\UserInfo\bin\Release\Interop.zkemkeeper.dll
+D:\Sunita\eSSLDEMO\2013\7.July\9-7\WithLog\DeviceCommu\UserInfo\obj\Release\ResolveAssemblyReference.cache
+D:\Sunita\eSSLDEMO\2013\7.July\9-7\WithLog\DeviceCommu\UserInfo\obj\Release\UserInfo.DeviceComunication.resources
+D:\Sunita\eSSLDEMO\2013\7.July\9-7\WithLog\DeviceCommu\UserInfo\obj\Release\UserInfo.Properties.Resources.resources
+D:\Sunita\eSSLDEMO\2013\7.July\9-7\WithLog\DeviceCommu\UserInfo\obj\Release\UserInfo.UserInfoMainBW.resources
+D:\Sunita\eSSLDEMO\2013\7.July\9-7\WithLog\DeviceCommu\UserInfo\obj\Release\UserInfo.UserInfoMainIFACE.resources
+D:\Sunita\eSSLDEMO\2013\7.July\9-7\WithLog\DeviceCommu\UserInfo\obj\Release\UserInfo.UserInfoMainTFT.resources
+D:\Sunita\eSSLDEMO\2013\7.July\9-7\WithLog\DeviceCommu\UserInfo\obj\Release\GenerateResource-ResGen.read.1.tlog
+D:\Sunita\eSSLDEMO\2013\7.July\9-7\WithLog\DeviceCommu\UserInfo\obj\Release\GenerateResource-ResGen.write.1.tlog
+D:\Sunita\eSSLDEMO\2013\7.July\10-7\WithLog\DeviceCommu\UserInfo\obj\Release\Interop.zkemkeeper.dll
+D:\Sunita\eSSLDEMO\2013\7.July\10-7\WithLog\DeviceCommu\UserInfo\obj\Release\UserInfo.csproj.ResolveComReference.cache
+D:\Sunita\eSSLDEMO\2013\7.July\10-7\WithLog\DeviceCommu\UserInfo\obj\Release\UserInfo.exe
+D:\Sunita\eSSLDEMO\2013\7.July\10-7\WithLog\DeviceCommu\UserInfo\obj\Release\UserInfo.pdb
+D:\Sunita\eSSLDEMO\2013\7.July\10-7\WithLog\DeviceCommu\UserInfo\bin\Release\UserInfo.exe
+D:\Sunita\eSSLDEMO\2013\7.July\10-7\WithLog\DeviceCommu\UserInfo\bin\Release\UserInfo.pdb
+D:\Sunita\eSSLDEMO\2013\7.July\10-7\WithLog\DeviceCommu\UserInfo\bin\Release\Interop.zkemkeeper.dll
+D:\Sunita\eSSLDEMO\2013\7.July\10-7\WithLog\DeviceCommu\UserInfo\obj\Release\ResolveAssemblyReference.cache
+D:\Sunita\eSSLDEMO\2013\7.July\10-7\WithLog\DeviceCommu\UserInfo\obj\Release\UserInfo.DeviceComunication.resources
+D:\Sunita\eSSLDEMO\2013\7.July\10-7\WithLog\DeviceCommu\UserInfo\obj\Release\UserInfo.Properties.Resources.resources
+D:\Sunita\eSSLDEMO\2013\7.July\10-7\WithLog\DeviceCommu\UserInfo\obj\Release\UserInfo.UserInfoMainBW.resources
+D:\Sunita\eSSLDEMO\2013\7.July\10-7\WithLog\DeviceCommu\UserInfo\obj\Release\UserInfo.UserInfoMainIFACE.resources
+D:\Sunita\eSSLDEMO\2013\7.July\10-7\WithLog\DeviceCommu\UserInfo\obj\Release\UserInfo.UserInfoMainTFT.resources
+D:\Sunita\eSSLDEMO\2013\7.July\10-7\WithLog\DeviceCommu\UserInfo\obj\Release\GenerateResource-ResGen.read.1.tlog
+D:\Sunita\eSSLDEMO\2013\7.July\10-7\WithLog\DeviceCommu\UserInfo\obj\Release\GenerateResource-ResGen.write.1.tlog

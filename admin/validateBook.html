@@ -1,0 +1,29 @@
+<!-- <div class="row">
+    <form name="post">
+    <div class="form-group">
+    <label>Name :</label>
+    <input type="text" ng-model="myData.rname" class="form-control" required/>
+    </div>
+    </form>
+</div> -->
+
+<h2>Booked slots of {{checkBook.Venue}} on {{checkBook.Date}}</h2>
+<table id="CheckAvailabilityTable" class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Start Time</th>
+            <th>End Time</th>
+            <th>Society</th>
+            <th>Event</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="d in showStatus.data">
+            <td>{{d.eventStartTime}}</td>
+            <td>{{d.eventEndTime}}</td>
+            <td>{{d.society}}</td>
+            <td>{{d.purpose}}</td>
+        </tr>
+    </tbody>
+</table>
+<div class="clearfix"></div>

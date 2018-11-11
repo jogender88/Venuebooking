@@ -1,0 +1,204 @@
+<div class="container">
+
+<div ng-if="data.err==1">
+<div class="alert alert-danger" ng-bind="data.msg">
+			</div>
+</div>
+
+	<div ng-if="data.err==0">
+<div class="alert alert-success" ng-bind="data.msg">
+			</div>
+	</div>
+
+	<div class="row">
+<div class="col-sm-6">
+	<form>
+	<div class="form-group">
+		<label>date:</label>
+		<input placeholder="dd-MM-yyyy" ng-model="checkBook.Date" class="form-control" datetime-picker date-only future-only date-format="dd-MM-yyyy" />
+	</div>
+	<div class="clearfix"></div>
+	<div class="form-group">
+		<label>Pick the venue:</label>
+			<select class="form-control" ng-model="checkBook.Venue" required="" placeholder= "Select Venue">
+				<option value="Auditorium">Auditorium</option>
+				<option value="Seminar hall">seminar hall</option>
+				<option value="Meeting Room">Meeting Room</option>
+				<option value="109">RN 109</option>
+				<option value="108">RN 108</option>
+			</select>
+	</div>
+	<button ng-click="CheckAvailability()" class="btn btn-lg btn-primary btn-block">Check Availability</button>
+	</form>
+
+	<div class="clearfix"></div>
+	<form ng-submit="booking()">
+	<h2 class="form-signin-heading">Booking form</h2>
+	<div class="clearfix"></div>
+	<div class="form-group">
+		<label>Pick the venue:</label>
+			<select class="form-control" ng-model="myBooking.venue" required="" placeholder= "Select Venue">
+				<option ng-repeat="v in venue track by $index" value={{v}} >{{v}}</option>
+			</select>
+	</div>
+
+{{myBooking.checkVenue}}
+	<div ng-if="venueInList==0" class="ng-scope" >
+		<div class="form-group">
+			<label>Type venue here if not listed above</label>
+				<input type="text" ng-model="myBooking.venue" placeholder="Venue"/>
+		</div>
+	</div>
+	<div class="clearfix"></div>
+	<div class="form-group">
+		<label>Society:</label>
+			<select class="form-control" ng-model="myBooking.society" placeholder = "Society name" required="" name= "Select Venue">
+				<option ng-repeat="host in society" value={{host}} >{{host}}</option>
+			</select>
+	</div>
+<div class="clearfix"></div>
+	<!--<md-datepicker ng-model="myBooking.date"></md-datepicker>-->
+	<div class="form-group">
+			<label> Date</label>
+			<input placeholder="dd-MM-yyyy" class="form-control" ng-model="myBooking.eventDate" datetime-picker date-only  future-only date-format="dd-MM-yyyy" />
+	</div>
+<div class="clearfix"></div>
+	<div class="form-group">
+		<label >Start Time</label>
+		<input type="text" class="form-control" id ="startTime" placeholder = "Start Time" ng-model = "myBooking.startTime" required="Start time is required" autofocus="">
+	</div>
+	<!--<div class="form-group">
+		<label >Start Time(8:20-3:30)</label>
+		<input type="time" ng-model="myBooking.startTime" [name="string"] [min="string"] [max="string"] [ng-min="08:29:00"] [ng-max="15:30:00"] [required="string"] [ng-required="string"] [ng-change="string"]>
+	</div>-->
+<div class="clearfix"></div>
+	<!--<div class="form-group">
+		<label >End Time</label>
+		<input type="time" ng-model="myBooking.EndTime1" [name="string"] [min="string"] [max="string"] [ng-min="08:29:00"] [ng-max="15:30:00"] [required="string"] [ng-required="string"] [ng-change="string"]>
+	</div>-->
+<div class="clearfix"></div>
+<div class="form-group">
+	<label >End Time</label>
+	<input type="text" class="form-control" id ="EndTime" placeholder = "End Time" ng-model = "myBooking.EndTime" required="End time is required" autofocus="">
+</div>
+<div class="clearfix"></div>
+	<div class="form-group">
+		<label for="pwd">Purpose:</label>
+		<input type="text" class="form-control" ng-model = "myBooking.purpose" required="" autofocus="">
+	</div>
+	<div class="clearfix"></div>
+	<h2>Which services do you need?</h2>
+	<ul class="list-group">
+  <li class="list-group-item">Water Bottels(for the speaker)?
+	<div class="radio">
+  <label><input type="radio" name="optradio" value="yes">yes</label>
+</div>
+<div class="radio">
+  <label><input type="radio" name="optradio" value="no">No</label>
+</div>
+</li>
+  <li class="list-group-item">Estate office
+		<div class="radio">
+		<label><input type="radio" name="optradio" value="yes">yes</label>
+		</div>
+		<div class="radio">
+		<label><input type="radio" name="optradio" value="no">No</label>
+		</div>
+	</li>
+  <li class="list-group-item">Phone usage permission?
+
+		<div class="radio">
+	  <label><input type="radio" name="optradio" value="yes">yes</label>
+	</div>
+	<div class="radio">
+	  <label><input type="radio" name="optradio" value="no">No</label>
+	</div></li>
+</ul>
+	<button type="submit" ng-click = "booking" class="btn btn-lg btn-primary btn-block">Request</button>
+	</form>
+	<script>
+	$('#startTime').timepicker({
+		'disableTimeRanges': [
+				['00:00', '08:30'],
+				['15:30', '23:59'],
+		],'step':60,'closeOnWindowScrol':true
+	});
+	$('#EndTime').timepicker({
+    // 'disableTimeRanges': [
+    //     ['00:00', '08:30'],
+    //     ['16:31', '23:59']
+	//],
+	'show2400':true,'step':60,'closeOnWindowScrol':true,'minTime':'08:30','maxTime':'15:30'
+}
+);
+	</script>
+</div>
+<!--form submited -->
+
+
+
+<div class="col-sm-6">
+	<!-- <md-content ng-controller="bookCtrl as ctrl" layout-padding="" ng-cloak="" class="datepickerdemoValidations" >
+  <div layout-gt-xs="row">
+    <div flex-gt-xs="">
+      <h4>Date-picker with min date and max date</h4>
+      <md-datepicker ng-model="ctrl.myDate" md-placeholder="Enter date" md-min-date="ctrl.minDate" md-max-date="ctrl.maxDate"></md-datepicker>
+    </div>
+
+    <div flex-gt-xs="">
+      <h4>Only weekends are selectable</h4>
+      <md-datepicker ng-model="ctrl.myDate" md-placeholder="Enter date" md-date-filter="ctrl.onlyWeekendsPredicate"></md-datepicker>
+    </div>
+  </div>
+
+  <div layout-gt-xs="row">
+    <div flex-gt-xs="">
+      <h4>Only weekends within given range are selectable</h4>
+      <md-datepicker ng-model="ctrl.myDate" md-placeholder="Enter date" md-min-date="ctrl.minDate" md-max-date="ctrl.maxDate" md-date-filter="ctrl.onlyWeekendsPredicate"></md-datepicker>
+    </div>
+
+    <form name="myForm" flex-gt-xs="">
+      <h4>Inside a md-input-container</h4>
+
+      <md-input-container>
+        <label>Enter date</label>
+        <md-datepicker ng-model="ctrl.myDate" name="dateField" md-min-date="ctrl.minDate" md-max-date="ctrl.maxDate"></md-datepicker>
+
+        <div ng-messages="myForm.dateField.$error">
+          <div ng-message="valid">Use a valid date format</div>
+          <div ng-message="mindate">Choose a date on or after {{ctrl.minDate | date:"shortDate"}}</div>
+          <div ng-message="maxdate">Choose a date on or before {{ctrl.maxDate | date:"shortDate"}}</div>
+        </div>
+      </md-input-container>
+    </form>
+  </div>
+</md-content>-->
+
+  <h2>Booked slots of {{checkBook.Venue}} on {{checkBook.Date}}</h2>
+  <table id = "CheckAvailabilityTable" class="table table-bordered">
+    <thead>
+      <tr>
+        <th>Start Time</th>
+        <th>End Time</th>
+        <th>Society</th>
+				<th>Event</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr ng-repeat="d in showStatus.data" >
+        <td>{{d.eventStartTime}}</td>
+        <td>{{d.eventEndTime}}</td>
+				<td>{{d.society}}</td>
+        <td>{{d.purpose}}</td>
+      </tr>
+    </tbody>
+  </table>
+	<div class="clearfix"></div>
+<button ng-click="$storage.counter = $storage.counter + 1">{{$storage.counter}}</button>
+</div>
+
+</div>
+</div>
+
+
+<div class="clearfix"></div>

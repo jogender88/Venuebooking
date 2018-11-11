@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+    <html>
+
+
+    <% include ../partials/head %>
+
+    <body>
+
+        <% include ../partials/nav %>
+
+        <section name="jumbotron">
+            <div class="jumbotron text-center">
+                <div class="container body-content">
+                    <br />
+                    <h2>
+                        <%= title %>
+                    </h2>
+                    <br>
+                    <div ng-app="myApp">
+                        <div ng-controller="usrcontroller">
+                            <table border="1" class="booktable">
+                                <tr>
+                                    <th>First Name</th>
+                                    <th>Last Name</th>
+                                    <th>E-mail ID</th>
+                                    <th>Society</th>
+                                    <th>Faculty Coordinator</th>
+                                    <th>Register Date</th>
+                                    <th>Register Time</th>
+                                    <th>Role</th>
+
+                                    <th>Action</th>
+
+                                </tr>
+                                <tr ng-repeat="usr in user">
+                                    <td>{{usr.fname}}</td>
+                                    <td>{{usr.lname}}</td>
+                                    <td> {{usr.email}} </td>
+                                    <td> {{usr.society }}</td>
+                                    <td>{{usr.fcoordinator}}</td>
+                                    <td>{{usr.date | date:'yyyy-MM-dd'}}</td>
+                                    <td>{{usr.date | date:'hh-mm-ss'}}</td>
+                                    <td> {{usr.role}}</td>
+
+                                    <td>
+
+                                        &nbsp;&nbsp;
+                                        <button class="btn " ng-click="addEmployee(usr._id)">Confirm</button>
+                                        &nbsp;&nbsp;|&nbsp;&nbsp;
+                                        <button class="btn " ng-click="remove(usr._id)">Delete</button>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;
+
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+
+                    <br />
+
+
+                    <br />
+                    <hr />
+                    <script>
+                        var users = <%- JSON.stringify(userlist)%>;
+                    </script>
+                    <% include ../partials/footer %>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+        <% include ../partials/scripts %>
+
+    </body>
+    </body>
+
+    </html>

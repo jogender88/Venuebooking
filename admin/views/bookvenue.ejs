@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Booking</title>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="/static/css/site.css" rel="stylesheet" type="text/css" />
+    <script src="/static/js/jquery-3.3.1.min.js"></script>
+    <script src="/static/js/bootstrap.js"></script>
+    <script src="/static/js/angular.min.js"></script>
+</head>
+
+<body>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                            aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="http://www.ncuindia.edu/">The Northcap University</a>
+                    </div>
+                    <div id="navbar" class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav">
+                            <li><a href="/admin">Home</a></li>
+                            <li><a href="http://lmsncu.ncuindia.edu/login/index.php">LMS</a></li>
+                            <li><a href="https://erp.ncuindia.edu/">ERP</a></li>
+                            <li><a href="/bookvenue">Book Venue</a></li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="/adminregister">Register</a></li>
+                            <li class="active"><a href="/admin">Login</a></li>
+                        </ul>
+                    </div>
+                    <!--/.nav-collapse -->
+                </div>
+            </nav>
+
+
+    <div class="container body-content">
+        <br />
+        <h2>
+            <%= title %>
+        </h2>
+        <br>
+
+        <form  method="POST">
+            <div class="form-horizontal">
+                    <div class="form-group">
+                            <label class="control-label col-md-2"> Email-Id</label>
+                            <div class="col-md-3">
+                                <input type="text" name="mailid" class="form-control"  >
+                            </div>
+                        </div>
+                <div class="form-group">
+                    <label class="control-label col-md-2"> Venue</label>
+                    <div class="col-md-3">
+                        <input type="text" name="venue" class="form-control"  >
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-md-2">Society</label>
+                    <div class="col-md-3">
+                        <input type="text" name="society" class="form-control"  >
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-md-2">Event Start</label>
+                    <div class="col-md-3">
+                        <input type="text" name="eventstart" class="form-control" >
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-md-2">Event End</label>
+                    <div class="col-md-3">
+                        <input type="text" name="eventend" class="form-control"  >
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-md-2">Purpose</label>
+                    <div class="col-md-3">
+                        <input type="text" name="purpose" class="form-control"  >
+                    </div>
+                </div>
+                <div class="form-group">
+                        <label class="control-label col-md-2">Event Date</label>
+                        <div class="col-md-3">
+                            <input type="text" name="eventdate" class="form-control"  >
+                        </div>
+                    </div>
+                  
+                <div class="form-group">
+                    <label class="control-label col-md-2">Action</label>
+                    <div class="col-md-3">  
+                      <input type="submit" value="Confirm" class="btn btn-primary" />
+                        <a href="/adminpanel">back</a>
+                    </div>
+                </div>
+
+            </div>
+        </form>
+
+
+
+        <br />
+        <br />
+        
+        <hr />
+        <footer>
+            2018 &copy; The Northcap University
+        </footer>
+    </div>
+
+</body>
+
+</html>

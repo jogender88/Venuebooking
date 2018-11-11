@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="UserInfo">
+</Property><Property Name="Solution File" Value="C:\Users\sunita.ESSLHO\Desktop\Communication Protocol SDK(32Bit Ver6.2.4.1)\Demo\C#\TFT\UserInfo\UserInfo.sln">
+</Property><Property Name="User Options File" Value="C:\Users\sunita.ESSLHO\Desktop\Communication Protocol SDK(32Bit Ver6.2.4.1)\Demo\C#\TFT\UserInfo\UserInfo.suo">
+</Property><Property Name="Date" Value="Thursday, June 27, 2013">
+</Property><Property Name="Time" Value="12:41 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="UserInfo.sln" Description="File successfully backed up as C:\Users\sunita.ESSLHO\Desktop\Communication Protocol SDK(32Bit Ver6.2.4.1)\Demo\C#\TFT\UserInfo\Backup\UserInfo.sln">
+</Event><Event ErrorLevel="0" Project="" Source="UserInfo.suo" Description="File successfully backed up as C:\Users\sunita.ESSLHO\Desktop\Communication Protocol SDK(32Bit Ver6.2.4.1)\Demo\C#\TFT\UserInfo\Backup\UserInfo.suo">
+</Event><Event ErrorLevel="0" Project="UserInfo" Source="UserInfo.csproj" Description="Project file successfully backed up as C:\Users\sunita.ESSLHO\Desktop\Communication Protocol SDK(32Bit Ver6.2.4.1)\Demo\C#\TFT\UserInfo\Backup\UserInfo.csproj">
+</Event><Event ErrorLevel="0" Project="UserInfo" Source="UserInfo.csproj.user" Description="Project user file successfully backed up as C:\Users\sunita.ESSLHO\Desktop\Communication Protocol SDK(32Bit Ver6.2.4.1)\Demo\C#\TFT\UserInfo\Backup\UserInfo.csproj.user">
+</Event><Event ErrorLevel="0" Project="UserInfo" Source="SearchforUSBCom.cs" Description="File successfully backed up as C:\Users\sunita.ESSLHO\Desktop\Communication Protocol SDK(32Bit Ver6.2.4.1)\Demo\C#\TFT\UserInfo\Backup\SearchforUSBCom.cs">
+</Event><Event ErrorLevel="0" Project="UserInfo" Source="UserInfoMain.cs" Description="File successfully backed up as C:\Users\sunita.ESSLHO\Desktop\Communication Protocol SDK(32Bit Ver6.2.4.1)\Demo\C#\TFT\UserInfo\Backup\UserInfoMain.cs">
+</Event><Event ErrorLevel="0" Project="UserInfo" Source="UserInfoMain.Designer.cs" Description="File successfully backed up as C:\Users\sunita.ESSLHO\Desktop\Communication Protocol SDK(32Bit Ver6.2.4.1)\Demo\C#\TFT\UserInfo\Backup\UserInfoMain.Designer.cs">
+</Event><Event ErrorLevel="0" Project="UserInfo" Source="Program.cs" Description="File successfully backed up as C:\Users\sunita.ESSLHO\Desktop\Communication Protocol SDK(32Bit Ver6.2.4.1)\Demo\C#\TFT\UserInfo\Backup\Program.cs">
+</Event><Event ErrorLevel="0" Project="UserInfo" Source="Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Users\sunita.ESSLHO\Desktop\Communication Protocol SDK(32Bit Ver6.2.4.1)\Demo\C#\TFT\UserInfo\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="UserInfo" Source="Properties\Resources.Designer.cs" Description="File successfully backed up as C:\Users\sunita.ESSLHO\Desktop\Communication Protocol SDK(32Bit Ver6.2.4.1)\Demo\C#\TFT\UserInfo\Backup\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="UserInfo" Source="Properties\Settings.Designer.cs" Description="File successfully backed up as C:\Users\sunita.ESSLHO\Desktop\Communication Protocol SDK(32Bit Ver6.2.4.1)\Demo\C#\TFT\UserInfo\Backup\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="UserInfo" Source="Properties\Settings.settings" Description="File successfully backed up as C:\Users\sunita.ESSLHO\Desktop\Communication Protocol SDK(32Bit Ver6.2.4.1)\Demo\C#\TFT\UserInfo\Backup\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="UserInfo" Source="images\top.jpg" Description="File successfully backed up as C:\Users\sunita.ESSLHO\Desktop\Communication Protocol SDK(32Bit Ver6.2.4.1)\Demo\C#\TFT\UserInfo\Backup\images\top.jpg">
+</Event><Event ErrorLevel="0" Project="UserInfo" Source="UserInfoMain.resx" Description="File successfully backed up as C:\Users\sunita.ESSLHO\Desktop\Communication Protocol SDK(32Bit Ver6.2.4.1)\Demo\C#\TFT\UserInfo\Backup\UserInfoMain.resx">
+</Event><Event ErrorLevel="0" Project="UserInfo" Source="Properties\Resources.resx" Description="File successfully backed up as C:\Users\sunita.ESSLHO\Desktop\Communication Protocol SDK(32Bit Ver6.2.4.1)\Demo\C#\TFT\UserInfo\Backup\Properties\Resources.resx">
+</Event><Event ErrorLevel="1" Project="UserInfo" Source="UserInfo.csproj" Description="Your project is targeting .NET Framework 2.0 or 3.0. If your project uses assemblies requiring a newer .NET Framework, your project will fail to build. You can change the .NET Framework version by clicking Properties on the project menu and then selecting a new version in the '.NET Framework' dropdown box. (In Visual Basic, this is located on the Compile tab by clicking the 'Advanced Compiler Options...' button.)">
+</Event><Event ErrorLevel="0" Project="UserInfo" Source="UserInfo.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="UserInfo" Source="UserInfo.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="UserInfo.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="UserInfo.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="UserInfo" Source="UserInfo.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

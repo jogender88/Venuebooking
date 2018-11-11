@@ -1,0 +1,11 @@
+Important Note:
+
+1) Connect Device with Computer.
+
+2) Paste all dll in Folder Path "  C:\Windows\System32\drivers  ".
+
+3) Register all dll.  
+
+4) open microsoft visual basic software and give Same Ip address which is given in device. 
+
+5) Click on Connect Button.

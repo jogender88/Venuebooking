@@ -1,0 +1,26 @@
+{
+  "name": "back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "connect": "^2.0.0",
+    "connect-mongostore": "^0.1.4",
+    "cors": "^2.8.3",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "express-validator": "^5.0.0",
+    "mongoose": "^4.11.1",
+    "morgan": "^1.9.0",
+    "ng-file-upload": "^12.2.13",
+    "nodemailer": "^4.6.5",
+    "sha1": "^1.1.1"
+  }
+}

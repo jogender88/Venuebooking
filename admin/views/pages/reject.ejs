@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Reject</title>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="/static/css/site.css" rel="stylesheet" type="text/css" />
+    <script src="/static/js/jquery-3.3.1.min.js"></script>
+    <script src="/static/js/bootstrap.js"></script>
+    <script src="/static/js/angular.min.js"></script>
+</head>
+
+<body>
+    <div class="container body-content">
+        <br />
+        <h2>
+            <%= title %>
+        </h2>
+        <br>
+
+        <form method="POST">
+            <div class="form-horizontal">
+                    <div class="form-group">
+                            <label class="control-label col-md-2"> Email-Id</label>
+                            <div class="col-md-3">
+                                <input type="text" name="mailid" class="form-control" readonly value=<%= booking.email %> >
+                            </div>
+                        </div>
+                <div class="form-group">
+                    <label class="control-label col-md-2"> Venue</label>
+                    <div class="col-md-3">
+                        <input type="text" name="venue" class="form-control" readonly value=<%= booking.venue %> >
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-md-2">Society</label>
+                    <div class="col-md-3">
+                        <input type="text" name="society" class="form-control"  readonly value=<%= booking.society %> >
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-md-2">Event Start</label>
+                    <div class="col-md-3">
+                        <input type="text" name="eventstart" class="form-control"  readonly value=<%= booking.eventStartTime%> >
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-md-2">Event End</label>
+                    <div class="col-md-3">
+                        <input type="text" name="eventend" class="form-control"  value=<%= booking.eventEndTime %>>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-md-2">Purpose</label>
+                    <div class="col-md-3">
+                        <input type="text" name="purpose" class="form-control"  readonly value=<%= booking.purpose %> >
+                    </div>
+                </div>
+                <div class="form-group">
+                        <label class="control-label col-md-2">Event Date</label>
+                        <div class="col-md-3">
+                            <input type="text" name="eventdate" class="form-control"  value=<%= booking.eventDate %> >
+                        </div>
+                    </div>
+                    <div class="form-group">
+                            <label class="control-label col-md-2">Status</label>
+                            <div class="col-md-3">
+                                <input type="text" name="status" class="form-control"  readonly value=<%= booking.status %> >
+                            </div>
+                        </div>
+                        <div class="form-group">
+                                <label class="control-label col-md-2">Reason</label>
+                                <div class="col-md-3">
+                                    <input type="text" name="reason" class="form-control"   value=<%= booking.reason %> >
+                                </div>
+                            </div>
+                <div class="form-group">
+                    <label class="control-label col-md-2">Action</label>
+                    <div class="col-md-3">  
+                      <input type="submit" value="Confirm" class="btn btn-primary" />
+                        <a href="/adminpanel">back</a>
+                    </div>
+                </div>
+
+            </div>
+        </form>
+
+
+
+        <br />
+        <br />
+        
+        <hr />
+        <footer>
+            2018 &copy; The Northcap University
+        </footer>
+    </div>
+
+</body>
+
+</html>

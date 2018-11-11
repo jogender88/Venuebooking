@@ -1,0 +1,127 @@
+<html>
+<head>
+<style>
+div.text_types{
+    margin: 20px 0 20px 0;
+    padding: 20px;
+}
+</style>
+
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="css/animate.css" rel='stylesheet' type='text/css' />
+<!--webfont-->
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'/>
+<link href='http://fonts.googleapis.com/css?family=Lobster+Two:400,400italic,700,700italic' rel='stylesheet' type='text/css'/>
+<!-- Custom Theme files -->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.min.js"></script>
+
+ <script src="node_modules/angularjs-datetime-picker/angularjs-datetime-picker.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--Animation-->
+<script src="js/wow.min.js"></script>
+<script>
+	new WOW().init();
+</script>
+<script src="js/simpleCart.min.js"> </script>
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+				});
+			});
+		</script>
+
+
+
+		<script src="app/app.js"></script>
+
+    <script src="app/loginService.js"></script>
+
+</head>
+
+<body ng-app = "app" border="1.5">
+<script>
+
+angular.module('app', ['ngRoute']).
+  config(['$routeProvider', function($routeProvider){
+    $routeProvider.when('/home', {
+        templateUrl: 'list.html',
+        controller: 'OrderController'
+    });
+
+    $routeProvider.when('/edit', {
+        templateUrl: 'edit.html',
+        controller: 'ActionController'
+    });
+
+    $routeProvider.otherwise({redirectTo: '/home'});
+  }]).
+  run(['$rootScope', '$location', 'PermissionsService', function($rootScope, $location, PermissionsService) {
+    $rootScope.edit = function() {
+      PermissionsService.setPermission('edit', true);
+      $location.path('/edit');
+    };
+    $rootScope.$on("$routeChangeStart", function(event, next, current) {
+      if (next.templateUrl === "edit.html") {
+        if(!PermissionsService.getPermission('edit')) {
+          $location.path('/');
+        }
+        PermissionsService.setPermission('edit', false);
+      }
+    });
+  }]).
+  service('PermissionsService', [function() {
+    var permissions = {
+      edit: false
+    };
+    this.setPermission = function(permission, value) {
+      permissions[permission] = value;
+    }
+    this.getPermission = function(permission) {
+      return permissions[permission] || false;
+    }
+  }]).
+  controller('OrderController', [function() {}]).
+  controller('ActionController', [function() {}]);
+
+</script>
+	<header border="1.5">
+		<div class="collapse navbar-collapse menu-effect" border="1.5">
+			<nav border="1.5">
+			test<ul><li><a href="../timer.html">test a </a></li><li><a href="../timer.html">test a </a></li><li><a href="../timer.html">test a </a></li><li><a href="../timer.html">test a </a></li></ul>
+			</nav>
+		</div>
+
+		<div class="text_types">
+				<mark>marked text</mark>
+				<ins>inserted text</ins>
+				<em> - Emphasized text</em>
+				<mark> - Marked text</mark>
+				<small> - Small text</small>
+				<del> - Deleted text</del>
+				<strong>-strong text</strong>
+		</div>
+	</header>
+  <a href="#/home">Home</a>
+<a href="#/edit">Edit</a>
+<div ng-view></div>
+<button ng-click="edit()">Edit</button>
+	<section border:"5px">
+	**** Marking abbreviations can give useful information to browsers, translation systems and search-engines****
+	<p>The <abbr title="Best price factory">BPF</abbr> is founded in 2017.</p>
+	</section>
+	<footer style="border:6px;" >
+	This is footer
+	</footer>
+</body>
+</html>
